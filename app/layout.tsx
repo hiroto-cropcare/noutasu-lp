@@ -10,6 +10,9 @@ const notoSansJP = Noto_Sans_JP({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "のうたす (NOUTASU) - 農業現場のためのアプリ",
   description: "農薬計算・在庫管理・ラベル確認をスマホひとつで。",
+  verification: {
+    google: "eqsukJrs9TLkjw6ljLjYX21vEPBdDSOh_HvdkI8wdE8",
+  },
 };
 
 export default function RootLayout({
