@@ -40,7 +40,7 @@ export default function LandingPage() {
             </button>
           </div>
           <p className="mt-6 text-sm text-stone-600 font-bold">
-            ※登録不要・すぐ試せます
+            ※登録無料・すぐ試せます
           </p>
         </div>
       </section>
@@ -154,7 +154,7 @@ export default function LandingPage() {
              />
           </div>
 
-          <h3 className="text-3xl font-bold mb-10 text-white">農業 × テクノロジー ＝ のうたす</h3>
+          <h3 className="text-3xl font-bold mb-10 text-white">農業 ＋ テクノロジー ＝ のうたす</h3>
           <div className="space-y-8 text-lg leading-relaxed text-emerald-100 text-left md:text-center font-medium">
             <p>
               なぜ、私たちがこのアプリを作ったのか。<br />
@@ -189,7 +189,6 @@ export default function LandingPage() {
               <p className="text-lg text-stone-700 leading-relaxed mb-8 font-medium">
                 使い方は、驚くほどシンプルです。<br /><br />
                 朝、圃場に着いたら、スマホを取り出す。<br />
-                今日の作業を選ぶ。<br />
                 必要な薬量が、ひと目でわかる。
               </p>
               <p className="text-lg text-stone-700 leading-relaxed font-medium">
