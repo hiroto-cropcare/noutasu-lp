@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 40" width="135" height="40">
+  <rect width="135" height="40" rx="5" fill="#000"/>
+  <g>
+    <linearGradient id="a" x1="21.8" y1="33.29" x2="5.02" y2="16.51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a0ff"/>
+      <stop offset=".01" stop-color="#00a1ff"/>
+      <stop offset=".26" stop-color="#00beff"/>
+      <stop offset=".51" stop-color="#00d2ff"/>
+      <stop offset=".76" stop-color="#00dfff"/>
+      <stop offset="1" stop-color="#00e3ff"/>
+    </linearGradient>
+    <path fill="url(#a)" d="M10.44 7.54a2 2 0 00-.46 1.4v22.12a2 2 0 00.46 1.4l.07.07 12.39-12.39v-.28L10.51 7.47z"/>
+    <linearGradient id="b" x1="33.83" y1="20.07" x2="9.64" y2="20.07" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe000"/>
+      <stop offset=".41" stop-color="#ffbd00"/>
+      <stop offset=".78" stop-color="#ffa500"/>
+      <stop offset="1" stop-color="#ff9c00"/>
+    </linearGradient>
+    <path fill="url(#b)" d="M27.03 24.27l-4.13-4.13v-.28l4.13-4.13.09.05 4.9 2.78c1.4.79 1.4 2.09 0 2.89l-4.9 2.78z"/>
+    <linearGradient id="c" x1="24.83" y1="22.3" x2="2.07" y2="45.05" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3a44"/>
+      <stop offset="1" stop-color="#c31162"/>
+    </linearGradient>
+    <path fill="url(#c)" d="M27.12 24.22l-4.22-4.22-12.46 12.46a1.63 1.63 0 002.08.06l14.6-8.3"/>
+    <linearGradient id="d" x1="7.3" y1=".29" x2="17.46" y2="10.45" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32a071"/>
+      <stop offset=".07" stop-color="#2da771"/>
+      <stop offset=".48" stop-color="#15cf74"/>
+      <stop offset=".8" stop-color="#06e775"/>
+      <stop offset="1" stop-color="#00f076"/>
+    </linearGradient>
+    <path fill="url(#d)" d="M27.12 15.85l-14.6-8.3a1.63 1.63 0 00-2.08.06l12.46 12.46z"/>
+  </g>
+  <g fill="#fff">
+    <text x="40" y="13" font-family="Arial, sans-serif" font-size="7" fill="#fff">Google Play で</text>
+    <text x="40" y="24" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff">ダウンロード</text>
+  </g>
+</svg>

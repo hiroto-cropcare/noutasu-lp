@@ -48,9 +48,14 @@ export default function RootLayout({
               <Link href="/contact" className="hidden md:block text-sm font-bold text-stone-600 hover:text-emerald-700 transition">
                 お問い合わせ
               </Link>
-              <button className="bg-emerald-700 text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-emerald-800 transition">
-                ダウンロード
-              </button>
+              <div className="flex items-center gap-2">
+                <a href="https://apps.apple.com/app/noutasu" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80">
+                  <Image src="/app-store-badge.svg" alt="App Storeからダウンロード" width={100} height={33} />
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=jp.habvex.noutasu" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80">
+                  <Image src="/google-play-badge.svg" alt="Google Playで手に入れよう" width={112} height={33} />
+                </a>
+              </div>
             </div>
           </div>
         </header>

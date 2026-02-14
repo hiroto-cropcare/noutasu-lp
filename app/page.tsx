@@ -318,11 +318,14 @@ export default function LandingPage() {
             だからこそ、まずは一度、ダウンロードして触ってみてください。<br />
             きっと一度使えば、手放せない道具になるはずです。
           </p>
-          <button className="w-full md:w-auto bg-emerald-700 text-white px-12 py-5 rounded-full text-xl font-bold shadow-xl hover:bg-emerald-800 transition transform hover:-translate-y-1 flex items-center justify-center gap-3 mx-auto">
-            <Smartphone />
-            のうたすを無料でダウンロード
-          </button>
-          <p className="mt-6 text-stone-600 font-bold">App Store / Google Play 対応</p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="https://apps.apple.com/app/noutasu" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80 transform hover:-translate-y-1">
+              <Image src="/app-store-badge.svg" alt="App Storeからダウンロード" width={180} height={60} />
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=jp.habvex.noutasu" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80 transform hover:-translate-y-1">
+              <Image src="/google-play-badge.svg" alt="Google Playで手に入れよう" width={200} height={60} />
+            </a>
+          </div>
         </div>
       </section>
     </div>
