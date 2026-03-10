@@ -49,7 +49,7 @@ export default function RootLayout({
                 お問い合わせ
               </Link>
               <div className="flex items-center gap-2">
-                <a href="https://apps.apple.com/app/noutasu" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80">
+                <a href="https://apple.co/4umAwPF" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80">
                   <Image src="/app-store-badge.svg" alt="App Storeからダウンロード" width={100} height={33} />
                 </a>
                 <a href="https://play.google.com/store/apps/details?id=jp.habvex.noutasu" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80">

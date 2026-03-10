@@ -319,7 +319,7 @@ export default function LandingPage() {
             きっと一度使えば、手放せない道具になるはずです。
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="https://apps.apple.com/app/noutasu" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80 transform hover:-translate-y-1">
+            <a href="https://apple.co/4umAwPF" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80 transform hover:-translate-y-1">
               <Image src="/app-store-badge.svg" alt="App Storeからダウンロード" width={180} height={60} />
             </a>
             <a href="https://play.google.com/store/apps/details?id=jp.habvex.noutasu" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80 transform hover:-translate-y-1">
