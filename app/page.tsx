@@ -56,9 +56,7 @@ export default function LandingPage() {
                   <Smartphone size={24} />
                   無料で使ってみる
                 </a>
-                <button className="w-full sm:w-auto bg-white text-stone-800 border border-stone-300 px-8 py-4 rounded-full text-lg font-bold hover:bg-stone-50 transition">
-                  機能を見る
-                </button>
+
               </div>
               <p className="mt-6 text-sm text-stone-600 font-bold">
                 ※登録無料・すぐ試せます
