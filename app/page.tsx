@@ -52,10 +52,10 @@ export default function LandingPage() {
                 農家のための専門アプリ。
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-start">
-                <button className="w-full sm:w-auto bg-emerald-700 text-white px-8 py-4 rounded-full text-lg font-bold shadow-lg hover:bg-emerald-800 transition flex items-center justify-center gap-2 hover:translate-y-[-2px]">
+                <a href="#download" className="w-full sm:w-auto bg-emerald-700 text-white px-8 py-4 rounded-full text-lg font-bold shadow-lg hover:bg-emerald-800 transition flex items-center justify-center gap-2 hover:translate-y-[-2px]">
                   <Smartphone size={24} />
                   無料で使ってみる
-                </button>
+                </a>
                 <button className="w-full sm:w-auto bg-white text-stone-800 border border-stone-300 px-8 py-4 rounded-full text-lg font-bold hover:bg-stone-50 transition">
                   機能を見る
                 </button>
@@ -421,7 +421,7 @@ export default function LandingPage() {
       </section>
 
       {/* ⑥ CTA */}
-      <section className="py-32 px-6 bg-white text-center">
+      <section id="download" className="py-32 px-6 bg-white text-center">
         <div className="container mx-auto max-w-3xl">
           <h3 className="text-3xl md:text-4xl font-bold mb-8 text-stone-900">まずは、次の防除で<br />試してみてください。</h3>
           <p className="text-lg text-stone-700 mb-12 leading-relaxed font-medium">
