@@ -17,31 +17,127 @@ export default function LandingPage() {
     <div className="flex flex-col">
       {/* ① ヒーローセクション */}
       <section className="pt-20 pb-20 px-6 bg-gradient-to-b from-emerald-50 to-white">
-        <div className="container mx-auto max-w-4xl text-center">
-          <span className="inline-block py-1 px-4 rounded-full bg-emerald-100 text-emerald-800 text-sm font-bold mb-6">
-            現場の負担をゼロにする
-          </span>
-          <h2 className="text-4xl md:text-6xl font-extrabold leading-tight mb-8 text-stone-900 tracking-tight">
-            農薬の「計算」と「迷い」を、<br className="hidden md:block" />
-            ポケットの中にしまおう。
-          </h2>
-          <p className="text-lg md:text-xl text-stone-800 mb-10 leading-relaxed max-w-2xl mx-auto font-medium">
-            希釈計算・ラベル確認・在庫管理。<br />
-            現場の「面倒」をすべて引き受ける、<br className="md:hidden" />
-            あなたの頼れる右腕アプリ。
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="w-full sm:w-auto bg-emerald-700 text-white px-8 py-4 rounded-full text-lg font-bold shadow-lg hover:bg-emerald-800 transition flex items-center justify-center gap-2 hover:translate-y-[-2px]">
-              <Smartphone size={24} />
-              無料で使ってみる
-            </button>
-            <button className="w-full sm:w-auto bg-white text-stone-800 border border-stone-300 px-8 py-4 rounded-full text-lg font-bold hover:bg-stone-50 transition">
-              機能を見る
-            </button>
+        <div className="container mx-auto max-w-6xl">
+          <div className="flex flex-col md:flex-row items-center gap-12">
+            {/* テキスト左カラム */}
+            <div className="flex-1">
+              <span className="inline-block py-1 px-4 rounded-full bg-emerald-100 text-emerald-800 text-sm font-bold mb-6">
+                農薬検索・希釈計算と在庫管理に特化した農業アプリ
+              </span>
+              <p className="text-base text-stone-600 font-medium mb-4">
+                希釈倍率を毎回計算し直している農家の方へ。在庫管理ができていない農家の方へ。
+              </p>
+              <h2 className="text-4xl md:text-5xl font-extrabold leading-tight mb-8 text-stone-900 tracking-tight">
+                畑で迷わない。<br />
+                計算し直さない。
+              </h2>
+              <p className="text-lg md:text-xl text-stone-800 mb-10 leading-relaxed font-medium">
+                農薬検索・希釈計算・在庫管理。<br />
+                農薬のことはAIにも相談できる、<br />
+                農家のための専門アプリ。
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 items-start">
+                <button className="w-full sm:w-auto bg-emerald-700 text-white px-8 py-4 rounded-full text-lg font-bold shadow-lg hover:bg-emerald-800 transition flex items-center justify-center gap-2 hover:translate-y-[-2px]">
+                  <Smartphone size={24} />
+                  無料で使ってみる
+                </button>
+                <button className="w-full sm:w-auto bg-white text-stone-800 border border-stone-300 px-8 py-4 rounded-full text-lg font-bold hover:bg-stone-50 transition">
+                  機能を見る
+                </button>
+              </div>
+              <p className="mt-6 text-sm text-stone-600 font-bold">
+                ※登録無料・すぐ試せます
+              </p>
+            </div>
+
+            {/* アプリモックアップ右カラム */}
+            <div className="flex-1 w-full flex justify-center">
+              <div className="relative w-72 h-[600px] bg-white rounded-[3rem] shadow-2xl border-8 border-stone-800 overflow-hidden ring-4 ring-stone-200">
+                <div className="absolute top-0 left-0 w-full h-full bg-[#F7FCF7] flex flex-col font-sans">
+                  <div className="h-20 bg-[#4CAF50] flex items-end px-4 pb-3 justify-between shadow-md z-10">
+                    <Menu className="text-white" size={24} />
+                    <span className="text-white font-bold text-lg">ホーム</span>
+                    <div className="w-6"></div>
+                  </div>
+                  <div className="flex-1 overflow-y-auto p-4 pb-20 no-scrollbar">
+                    <div className="text-center mt-4 mb-8">
+                      <h4 className="text-xl font-bold text-stone-800 mb-1">のうたすへようこそ！</h4>
+                      <p className="text-xs text-stone-500">農業管理を手軽に農業サポート</p>
+                    </div>
+                    <h5 className="text-stone-800 font-bold mb-3 ml-1 text-sm">クイックアクセス</h5>
+                    <div className="space-y-3">
+                      {/* カード: 農薬検索 */}
+                      <div className="bg-white p-3 rounded-xl shadow-sm flex items-center gap-3 border border-stone-100">
+                        <div className="w-12 h-12 bg-green-50 rounded-lg flex items-center justify-center text-[#4CAF50]">
+                          <Search size={22} />
+                        </div>
+                        <div className="flex-1">
+                          <div className="font-bold text-sm text-stone-800">農薬検索</div>
+                          <div className="text-[10px] text-stone-500">登録番号や成分から農薬を検索</div>
+                        </div>
+                        <ChevronRight size={18} className="text-stone-400" />
+                      </div>
+                      {/* カード: 農薬希釈計算 */}
+                      <div className="bg-white p-3 rounded-xl shadow-sm flex items-center gap-3 border border-stone-100">
+                        <div className="w-12 h-12 bg-green-50 rounded-lg flex items-center justify-center text-[#4CAF50]">
+                          <FlaskConical size={22} />
+                        </div>
+                        <div className="flex-1">
+                          <div className="font-bold text-sm text-stone-800">農薬希釈計算</div>
+                          <div className="text-[10px] text-stone-500">農薬の希釈倍率を簡単に計算</div>
+                        </div>
+                        <ChevronRight size={18} className="text-stone-400" />
+                      </div>
+                      {/* カード: 在庫管理 */}
+                      <div className="bg-white p-3 rounded-xl shadow-sm flex items-center gap-3 border border-stone-100">
+                        <div className="w-12 h-12 bg-green-50 rounded-lg flex items-center justify-center text-[#4CAF50]">
+                          <Archive size={22} />
+                        </div>
+                        <div className="flex-1">
+                          <div className="font-bold text-sm text-stone-800">在庫管理</div>
+                          <div className="text-[10px] text-stone-500">農薬や資材の在庫を管理</div>
+                        </div>
+                        <ChevronRight size={18} className="text-stone-400" />
+                      </div>
+                      {/* カード: AI農業相談 */}
+                      <div className="bg-white p-3 rounded-xl shadow-sm flex items-center gap-3 border border-stone-100">
+                        <div className="w-12 h-12 bg-green-50 rounded-lg flex items-center justify-center text-[#4CAF50]">
+                          <MessageSquareText size={22} />
+                        </div>
+                        <div className="flex-1">
+                          <div className="font-bold text-sm text-stone-800">AI農業相談</div>
+                          <div className="text-[10px] text-stone-500">AIに農薬・防除の悩みを相談</div>
+                        </div>
+                        <ChevronRight size={18} className="text-stone-400" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute bottom-0 w-full h-16 bg-white border-t border-stone-100 flex items-center justify-around pb-2 shadow-[0_-5px_15px_rgba(0,0,0,0.02)]">
+                    <div className="flex flex-col items-center gap-1 text-[#4CAF50]">
+                      <HomeIcon size={20} />
+                      <span className="text-[9px] font-bold">ホーム</span>
+                    </div>
+                    <div className="flex flex-col items-center gap-1 text-stone-400">
+                      <Search size={20} />
+                      <span className="text-[9px] font-medium">農薬検索</span>
+                    </div>
+                    <div className="flex flex-col items-center gap-1 text-stone-400">
+                      <FlaskConical size={20} />
+                      <span className="text-[9px] font-medium">農薬希釈</span>
+                    </div>
+                    <div className="flex flex-col items-center gap-1 text-stone-400">
+                      <Archive size={20} />
+                      <span className="text-[9px] font-medium">在庫管理</span>
+                    </div>
+                    <div className="flex flex-col items-center gap-1 text-stone-400">
+                      <MessageSquareText size={20} />
+                      <span className="text-[9px] font-medium">AI相談</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <p className="mt-6 text-sm text-stone-600 font-bold">
-            ※登録無料・すぐ試せます
-          </p>
         </div>
       </section>
 
@@ -110,20 +206,20 @@ export default function LandingPage() {
           <div className="space-y-8">
             {[
               {
-                title: "希釈計算は、もう迷わない",
-                desc: "倍率とタンクの容量を選ぶだけ。必要な薬量はアプリが瞬時に出します。もう、計算機を取り出す必要はありません。"
+                title: "農薬検索は、手元でひと目でわかる",
+                desc: "登録番号・成分名・作物名から農薬をすぐに検索。剥がれかけたラベルを読む必要も、農薬手帳を持ち歩く必要もありません。"
               },
               {
-                title: "スマホがそのまま「ラベル」になる",
-                desc: "手元のスマホで、使用方法や注意事項をすぐに確認。小さな文字を必死に読むストレスから解放されます。"
+                title: "希釈計算は、もう迷わない",
+                desc: "倍率とタンクの容量を選ぶだけ。必要な薬量はアプリが瞬時に出します。もう、計算機を取り出す必要はありません。"
               },
               {
                 title: "在庫が見える、段取りが決まる",
                 desc: "倉庫に何がどれだけあるか、手元ですぐに分かります。買い忘れも、防除の遅れも防げます。"
               },
               {
-                title: "迷った時の「次の一手」もサポート",
-                desc: "あなたの作物や栽培方法に合わせて、「次はこの防除がいいかもしれません」とアプリが提案します。"
+                title: "農薬の疑問は、AIに相談できる",
+                desc: "「この作物にどの農薬が使えるか」「混用しても大丈夫か」など、現場の疑問をAIに直接聞けます。専門的な知識がなくても、自信を持って防除の判断ができます。"
               }
             ].map((item, index) => (
               <div key={index} className="flex gap-6 p-6 rounded-2xl hover:bg-stone-50 transition border border-transparent hover:border-stone-100">
