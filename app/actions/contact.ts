@@ -39,10 +39,10 @@ export async function sendContactEmail(
 
   try {
     await resend.emails.send({
-      from: `のうたす お問い合わせ <${process.env.CONTACT_FROM_EMAIL}>`,
+      from: `たがやす お問い合わせ <${process.env.CONTACT_FROM_EMAIL}>`,
       to: process.env.CONTACT_TO_EMAIL!,
       replyTo: email,
-      subject: `【のうたす】${subjectText} - ${name}様より`,
+      subject: `【たがやす】${subjectText} - ${name}様より`,
       text: `
 お名前: ${name}
 メールアドレス: ${email}

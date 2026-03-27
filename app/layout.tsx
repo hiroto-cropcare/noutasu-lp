@@ -8,7 +8,7 @@ import "./globals.css";
 const notoSansJP = Noto_Sans_JP({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "のうたす (NOUTASU) - 農業現場のためのアプリ",
+  title: "たがやす (TAGAYASU) — 農薬・在庫・天気の農業管理アプリ",
   description: "農薬計算・在庫管理・ラベル確認をスマホひとつで。",
   verification: {
     google: "eqsukJrs9TLkjw6ljLjYX21vEPBdDSOh_HvdkI8wdE8",
@@ -33,14 +33,14 @@ export default function RootLayout({
               <div className="relative w-8 h-8 md:w-10 md:h-10">
                 <Image 
                   src="/logo.png" 
-                  alt="のうたすロゴ" 
-                  fill 
+                  alt="たがやすロゴ"
+                  fill
                   className="object-contain"
                   priority
                 />
               </div>
               <span className="text-2xl font-bold tracking-tighter text-emerald-800 pt-1">
-                のうたす
+                たがやす
               </span>
             </Link>
             
@@ -75,13 +75,13 @@ export default function RootLayout({
                 <div className="relative w-6 h-6">
                   <Image 
                     src="/logo.png" 
-                    alt="のうたすロゴ" 
-                    fill 
+                    alt="たがやすロゴ"
+                    fill
                     className="object-contain opacity-80 group-hover:opacity-100 transition"
                   />
                 </div>
                 <span className="text-stone-300 font-bold text-lg group-hover:text-white transition">
-                  のうたす
+                  たがやす
                 </span>
               </Link>
               <p className="text-stone-500">現場のために、進化し続ける。</p>
@@ -93,7 +93,7 @@ export default function RootLayout({
             </div>
 
             <div className="text-stone-500">
-              &copy; {new Date().getFullYear()} NOUTASU.
+              &copy; {new Date().getFullYear()} TAGAYASU.
             </div>
           </div>
         </footer>
