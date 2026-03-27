@@ -19,16 +19,16 @@ export default function LandingPage() {
       <section className="pt-20 pb-20 px-6 bg-gradient-to-b from-emerald-50 to-white">
         <div className="container mx-auto max-w-4xl text-center">
           <span className="inline-block py-1 px-4 rounded-full bg-emerald-100 text-emerald-800 text-sm font-bold mb-6">
-            現場の負担をゼロにする
+            農薬検索・希釈計算と在庫管理に特化した農業アプリ
           </span>
+          <p className="text-base md:text-lg text-emerald-700 font-bold mb-4">希釈倍率を毎回計算し直している農家の方へ。在庫管理ができていない農家の方へ。</p>
           <h2 className="text-4xl md:text-6xl font-extrabold leading-tight mb-8 text-stone-900 tracking-tight">
-            農薬の「計算」と「迷い」を、<br className="hidden md:block" />
-            ポケットの中にしまおう。
+            畑で迷わない。計算し直さない。
           </h2>
           <p className="text-lg md:text-xl text-stone-800 mb-10 leading-relaxed max-w-2xl mx-auto font-medium">
-            希釈計算・ラベル確認・在庫管理。<br />
-            現場の「面倒」をすべて引き受ける、<br className="md:hidden" />
-            あなたの頼れる右腕アプリ。
+            農薬検索・希釈計算・在庫管理。<br />
+            農薬のことはAIにも相談できる、<br className="md:hidden" />
+            農家のための専門アプリ。
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="w-full sm:w-auto bg-emerald-700 text-white px-8 py-4 rounded-full text-lg font-bold shadow-lg hover:bg-emerald-800 transition flex items-center justify-center gap-2 hover:translate-y-[-2px]">
