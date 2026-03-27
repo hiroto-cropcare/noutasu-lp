@@ -12,9 +12,24 @@ import {
   ChevronRight
 } from 'lucide-react';
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  name: "たがやす",
+  alternateName: "Tagayasu",
+  description: "農薬検索・希釈計算・在庫管理・天気・AI相談の農業管理アプリ",
+  applicationCategory: "UtilitiesApplication",
+  operatingSystem: ["iOS", "Android"],
+  offers: { "@type": "Offer", price: "0" },
+};
+
 export default function LandingPage() {
   return (
     <div className="flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* ① ヒーローセクション */}
       <section className="pt-20 pb-20 px-6 bg-gradient-to-b from-emerald-50 to-white">
         <div className="container mx-auto max-w-6xl">

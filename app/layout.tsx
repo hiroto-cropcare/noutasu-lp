@@ -8,8 +8,21 @@ import "./globals.css";
 const notoSansJP = Noto_Sans_JP({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "たがやす (TAGAYASU) — 農薬・在庫・天気の農業管理アプリ",
-  description: "農薬計算・在庫管理・ラベル確認をスマホひとつで。",
+  title: "たがやす — 農薬・在庫・天気の農業管理アプリ",
+  description: "農薬検索・希釈計算・在庫管理・天気・AI相談。畑で迷わない、農家のための専門アプリ「たがやす」。App Store・Google Play で無料ダウンロード。",
+  keywords: ["たがやす", "農薬アプリ", "希釈計算", "農薬検索", "在庫管理", "農業アプリ", "農家アプリ"],
+  openGraph: {
+    title: "たがやす — 農薬・在庫・天気の農業管理アプリ",
+    description: "農薬検索・希釈計算・在庫管理・天気・AI相談。畑で迷わない、農家のための専門アプリ「たがやす」。App Store・Google Play で無料ダウンロード。",
+    siteName: "たがやす",
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "たがやす — 農薬・在庫・天気の農業管理アプリ",
+    description: "農薬検索・希釈計算・在庫管理・天気・AI相談。畑で迷わない、農家のための専門アプリ「たがやす」。App Store・Google Play で無料ダウンロード。",
+  },
   verification: {
     google: "eqsukJrs9TLkjw6ljLjYX21vEPBdDSOh_HvdkI8wdE8",
   },
