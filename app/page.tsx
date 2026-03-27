@@ -17,7 +17,7 @@ const jsonLd = {
   "@type": "MobileApplication",
   name: "たがやす",
   alternateName: "Tagayasu",
-  description: "農薬検索・希釈計算・在庫管理・天気・AI相談の農業管理アプリ",
+  description: "農薬検索・希釈計算・在庫管理・AI相談の農業管理アプリ",
   applicationCategory: "UtilitiesApplication",
   operatingSystem: ["iOS", "Android"],
   offers: { "@type": "Offer", price: "0" },
