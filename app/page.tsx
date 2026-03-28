@@ -15,7 +15,7 @@ import {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "MobileApplication",
-  name: "たがやす",
+  name: "TAGAYASU",
   alternateName: "Tagayasu",
   description: "農薬検索・希釈計算・在庫管理・AI相談の農業管理アプリ",
   applicationCategory: "UtilitiesApplication",
@@ -74,7 +74,7 @@ export default function LandingPage() {
                   </div>
                   <div className="flex-1 overflow-y-auto p-4 pb-20 no-scrollbar">
                     <div className="text-center mt-4 mb-8">
-                      <h4 className="text-xl font-bold text-stone-800 mb-1">たがやすへようこそ！</h4>
+                      <h4 className="text-xl font-bold text-stone-800 mb-1">TAGAYASUへようこそ！</h4>
                       <p className="text-xs text-stone-500">農業管理を手軽に農業サポート</p>
                     </div>
                     <h5 className="text-stone-800 font-bold mb-3 ml-1 text-sm">クイックアクセス</h5>
@@ -203,7 +203,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* ③ たがやすでできること */}
+      {/* ③ TAGAYASUでできること */}
       <section className="py-24 px-6 bg-white">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-16">
@@ -212,7 +212,7 @@ export default function LandingPage() {
               あなたは「作物」に向き合ってください。
             </h3>
             <p className="text-lg text-stone-700 font-medium">
-              たがやすを使えば、現場の景色がこう変わります。
+              TAGAYASUを使えば、現場の景色がこう変わります。
             </p>
           </div>
 
@@ -249,7 +249,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* ④ たがやすの思想 */}
+      {/* ④ TAGAYASUの思想 */}
       <section className="py-24 px-6 bg-emerald-900 text-emerald-50">
         <div className="container mx-auto max-w-3xl text-center">
           
@@ -257,13 +257,13 @@ export default function LandingPage() {
           <div className="mx-auto mb-8 w-24 h-24 relative opacity-90">
              <Image 
                 src="/logo.png" 
-                alt="たがやすロゴ"
+                alt="TAGAYASUロゴ"
                 fill 
                 className="object-contain"
              />
           </div>
 
-          <h3 className="text-3xl font-bold mb-10 text-white">農業 ＋ テクノロジー ＝ たがやす</h3>
+          <h3 className="text-3xl font-bold mb-10 text-white">農業 ＋ テクノロジー ＝ TAGAYASU</h3>
           <div className="space-y-8 text-lg leading-relaxed text-emerald-100 text-left md:text-center font-medium">
             <p>
               なぜ、私たちがこのアプリを作ったのか。<br />
@@ -327,7 +327,7 @@ export default function LandingPage() {
                     
                     {/* ウェルカムメッセージ */}
                     <div className="text-center mt-4 mb-8">
-                      <h4 className="text-xl font-bold text-stone-800 mb-1">たがやすへようこそ！</h4>
+                      <h4 className="text-xl font-bold text-stone-800 mb-1">TAGAYASUへようこそ！</h4>
                       <p className="text-xs text-stone-500">農業管理を手軽に農業サポート</p>
                     </div>
 
