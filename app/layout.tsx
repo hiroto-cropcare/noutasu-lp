@@ -3,25 +3,26 @@ import { Noto_Sans_JP } from "next/font/google";
 import Link from "next/link";
 // 画像表示用のコンポーネントを読み込み
 import Image from "next/image";
+import icon from "./icon.png";
 import "./globals.css";
 
 const notoSansJP = Noto_Sans_JP({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "TAGAYASU — 農薬・在庫管理の農業管理アプリ",
-  description: "農薬検索・希釈計算・在庫管理・AI相談。畑で迷わない、農家のための専門アプリ「TAGAYASU」。App Store・Google Play で無料ダウンロード。",
-  keywords: ["TAGAYASU", "農薬アプリ", "希釈計算", "農薬検索", "在庫管理", "農業アプリ", "農家アプリ"],
+  title: "たがやす — 農薬・在庫の農業管理アプリ",
+  description: "農薬検索・希釈計算・在庫管理・AI相談。畑で迷わない、農家のための専門アプリ「たがやす」。App Store・Google Play で無料ダウンロード。",
+  keywords: ["たがやす", "農薬アプリ", "希釈計算", "農薬検索", "在庫管理", "農業アプリ", "農家アプリ"],
   openGraph: {
-    title: "TAGAYASU — 農薬・在庫管理の農業管理アプリ",
-    description: "農薬検索・希釈計算・在庫管理・AI相談。畑で迷わない、農家のための専門アプリ「TAGAYASU」。App Store・Google Play で無料ダウンロード。",
-    siteName: "TAGAYASU",
+    title: "たがやす — 農薬・在庫の農業管理アプリ",
+    description: "農薬検索・希釈計算・在庫管理・天気・AI相談。畑で迷わない、農家のための専門アプリ「たがやす」。App Store・Google Play で無料ダウンロード。",
+    siteName: "たがやす",
     locale: "ja_JP",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TAGAYASU — 農薬・在庫管理の農業管理アプリ",
-    description: "農薬検索・希釈計算・在庫管理・AI相談。畑で迷わない、農家のための専門アプリ「TAGAYASU」。App Store・Google Play で無料ダウンロード。",
+    title: "たがやす — 農薬・在庫・天気の農業管理アプリ",
+    description: "農薬検索・希釈計算・在庫管理・天気・AI相談。畑で迷わない、農家のための専門アプリ「たがやす」。App Store・Google Play で無料ダウンロード。",
   },
   verification: {
     google: "eqsukJrs9TLkjw6ljLjYX21vEPBdDSOh_HvdkI8wdE8",
@@ -44,16 +45,16 @@ export default function RootLayout({
             <Link href="/" className="flex items-center gap-3 group">
               {/* ▼ 画像設定箇所（publicフォルダの logo.png を表示） */}
               <div className="relative w-8 h-8 md:w-10 md:h-10">
-                <Image 
-                  src="/logo.png" 
-                  alt="TAGAYASUロゴ"
+                <Image
+                  src={icon}
+                  alt="たがやすロゴ"
                   fill
                   className="object-contain"
                   priority
                 />
               </div>
               <span className="text-2xl font-bold tracking-tighter text-emerald-800 pt-1">
-                TAGAYASU
+                たがやす
               </span>
             </Link>
             
@@ -87,14 +88,14 @@ export default function RootLayout({
                  {/* ▼ 画像設定箇所 */}
                 <div className="relative w-6 h-6">
                   <Image 
-                    src="/logo.png" 
-                    alt="TAGAYASUロゴ"
+                    src={icon} 
+                    alt="たがやすロゴ"
                     fill
                     className="object-contain opacity-80 group-hover:opacity-100 transition"
                   />
                 </div>
                 <span className="text-stone-300 font-bold text-lg group-hover:text-white transition">
-                  TAGAYASU
+                  たがやす
                 </span>
               </Link>
               <p className="text-stone-500">現場のために、進化し続ける。</p>
