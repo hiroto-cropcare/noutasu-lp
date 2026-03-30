@@ -1,6 +1,7 @@
 import React from 'react';
 // 画像用の Image コンポーネントを追加
 import Image from 'next/image';
+import icon from "./icon.png";
 import { 
   FlaskConical, 
   Search, 
@@ -255,10 +256,10 @@ export default function LandingPage() {
           
           {/* ▼ ここもロゴ画像に変更しました */}
           <div className="mx-auto mb-8 w-24 h-24 relative opacity-90">
-             <Image 
-                src="/logo.png" 
+             <Image
+                src={icon}
                 alt="TAGAYASUロゴ"
-                fill 
+                fill
                 className="object-contain"
              />
           </div>
