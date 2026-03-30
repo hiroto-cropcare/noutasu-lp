@@ -255,7 +255,7 @@ export default function LandingPage() {
         <div className="container mx-auto max-w-3xl text-center">
           
           {/* ▼ ここもロゴ画像に変更しました */}
-          <div className="mx-auto mb-8 w-48 h-48 relative opacity-90">
+          <div className="mx-auto mb-8 w-[320px] h-[320px] relative opacity-90">
              <Image
                 src={icon}
                 alt="TAGAYASUロゴ"
