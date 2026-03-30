@@ -271,7 +271,7 @@ export default function LandingPage() {
             </p>
             <div className="py-6 border-y border-emerald-700/50 my-6">
               <p className="text-xl font-bold text-white mb-2">
-                耕す（たがやす）のは、土だけじゃない。
+                耕す（TAGAYASU）のは、土だけじゃない。
               </p>
               <p className="text-xl font-bold text-white">
                 データも、未来も、いっしょに耕す（TAGAYASU）。
