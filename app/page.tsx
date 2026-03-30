@@ -1,7 +1,7 @@
 import React from 'react';
 // 画像用の Image コンポーネントを追加
 import Image from 'next/image';
-import icon from "./icon.png";
+import icon from "./GF.png";
 import { 
   FlaskConical, 
   Search, 

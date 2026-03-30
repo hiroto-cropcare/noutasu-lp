@@ -3,7 +3,7 @@ import { Noto_Sans_JP } from "next/font/google";
 import Link from "next/link";
 // 画像表示用のコンポーネントを読み込み
 import Image from "next/image";
-import icon from "./icon.png";
+import icon from "./GF.png";
 import "./globals.css";
 
 const notoSansJP = Noto_Sans_JP({ subsets: ["latin"] });
