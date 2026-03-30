@@ -17,7 +17,7 @@ const jsonLd = {
   "@type": "MobileApplication",
   name: "TAGAYASU",
   alternateName: "Tagayasu",
-  description: "農薬検索・希釈計算・在庫管理・AI相談の農業管理アプリ",
+  description: "農家が作った、農家のための農薬管理アプリ。農薬検索・希釈計算・在庫管理・AI相談をスマホ一つで。",
   applicationCategory: "UtilitiesApplication",
   operatingSystem: ["iOS", "Android"],
   offers: { "@type": "Offer", price: "0" },
@@ -59,7 +59,7 @@ export default function LandingPage() {
 
               </div>
               <p className="mt-6 text-sm text-stone-600 font-bold">
-                ※登録無料・すぐ試せます
+                ※トライアルプラン無料・登録不要
               </p>
             </div>
 
@@ -75,7 +75,7 @@ export default function LandingPage() {
                   <div className="flex-1 overflow-y-auto p-4 pb-20 no-scrollbar">
                     <div className="text-center mt-4 mb-8">
                       <h4 className="text-xl font-bold text-stone-800 mb-1">TAGAYASUへようこそ！</h4>
-                      <p className="text-xs text-stone-500">農業管理を手軽に農業サポート</p>
+                      <p className="text-xs text-stone-500">農薬・在庫管理をもっと手軽に</p>
                     </div>
                     <h5 className="text-stone-800 font-bold mb-3 ml-1 text-sm">クイックアクセス</h5>
                     <div className="space-y-3">
@@ -263,28 +263,68 @@ export default function LandingPage() {
              />
           </div>
 
-          <h3 className="text-3xl font-bold mb-10 text-white">農業 ＋ テクノロジー ＝ TAGAYASU</h3>
+          <h3 className="text-3xl font-bold mb-10 text-white">農業を、テクノロジーで耕す。</h3>
           <div className="space-y-8 text-lg leading-relaxed text-emerald-100 text-left md:text-center font-medium">
             <p>
-              なぜ、私たちがこのアプリを作ったのか。<br />
-              それは、今の農業現場があまりにも「現場の人の頑張り」だけに支えられていると感じたからです。
-            </p>
-            <p>
-              天候と戦い、作物と向き合うだけでも大変な仕事。<br />
-              そこに、複雑な計算や事務作業の負担まで背負わせたくない。
+              農家が背負うのは、土だけではない。<br />
+              天候と向き合い、作物を育てながら──煩雑な計算・記録・事務作業まで、現場の人がひとりで抱えてきた。
             </p>
             <div className="py-6 border-y border-emerald-700/50 my-6">
               <p className="text-xl font-bold text-white mb-2">
-                農業（のう）に、技術（たす）を。
+                耕す（たがやす）のは、土だけじゃない。
               </p>
               <p className="text-xl font-bold text-white">
-                農業（のう）を、頭脳（のう）と現場の両面から支える（たす）。
+                データも、未来も、いっしょに耕す（TAGAYASU）。
               </p>
             </div>
             <p>
-              私たちは、最先端の技術をひけらかしたいわけではありません。<br />
-              現場で泥にまみれるあなたの、一番近くにいる「相棒」になりたいのです。
+              TAGAYASUは、農業の現場に最も近い「道具」でありたい。<br />
+              難しい技術より、使いやすさを。華やかさより、現場での確かさを。
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ④.5 開発者ストーリー */}
+      <section className="py-24 px-6 bg-stone-50">
+        <div className="container mx-auto max-w-3xl">
+          <div className="text-center mb-12">
+            <span className="inline-block py-1 px-4 rounded-full bg-emerald-100 text-emerald-800 text-sm font-bold mb-6">
+              開発者について
+            </span>
+            <h3 className="text-2xl md:text-4xl font-bold text-stone-900">
+              農家が、農家のために作った。
+            </h3>
+          </div>
+          <div className="bg-white rounded-3xl shadow-sm border border-stone-200 p-10 md:p-14">
+            <div className="space-y-6 text-lg leading-relaxed text-stone-700 font-medium">
+              <p>
+                私は農家です。そして、エンジニアでもあります。
+              </p>
+              <p>
+                畑に立ちながら、ずっと感じていました。<br />
+                「なぜ、こんなに便利な時代なのに、農業の現場だけがアナログのままなんだろう」と。
+              </p>
+              <p>
+                希釈計算をメモ帳でやり直す。ラベルが読めなくてスマホで検索する。在庫が足りなくて慌てて購買店へ走る。<br />
+                そういう「小さなロス」が、毎日積み重なっていく。
+              </p>
+              <p>
+                農家の痛みを知っているのは、農家だけです。<br />
+                だから私は、自分で作ることにしました。
+              </p>
+              <div className="py-6 border-l-4 border-emerald-500 pl-6 my-8">
+                <p className="text-stone-900 font-bold text-xl">
+                  「現場で本当に使えるか」を、自分の畑で試しながら作ったアプリです。
+                </p>
+              </div>
+              <p>
+                現場でパソコンは持ち歩かない。でも、スマホは必ずポケットに入っている。<br />
+                だからこのアプリの開発で一番大事にしたのは、<span className="font-bold text-stone-900">「すぐ使えるか」「簡単か」</span>、それだけです。<br /><br />
+                軍手をはめたまま使えるか。日差しの強い午前中でも画面が見えるか。疲れているときでも迷わず操作できるか。<br />
+                そういう視点で、一つひとつ設計しています。
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -328,7 +368,7 @@ export default function LandingPage() {
                     {/* ウェルカムメッセージ */}
                     <div className="text-center mt-4 mb-8">
                       <h4 className="text-xl font-bold text-stone-800 mb-1">TAGAYASUへようこそ！</h4>
-                      <p className="text-xs text-stone-500">農業管理を手軽に農業サポート</p>
+                      <p className="text-xs text-stone-500">農薬・在庫管理をもっと手軽に</p>
                     </div>
 
                     {/* クイックアクセス */}
@@ -418,14 +458,66 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* ⑥.5 FAQ */}
+      <section className="py-24 px-6 bg-white">
+        <div className="container mx-auto max-w-3xl">
+          <div className="text-center mb-16">
+            <h3 className="text-2xl md:text-4xl font-bold text-stone-900">
+              よくあるご質問
+            </h3>
+          </div>
+          <div className="space-y-4">
+            {[
+              {
+                q: "無料で使えますか？",
+                a: "トライアルプランは登録不要で完全無料です。ダウンロードしたらすぐにお使いいただけます。"
+              },
+              {
+                q: "iPhoneだけですか？ Androidでも使えますか？",
+                a: "iOS・Android両方に対応しています。App Store、Google Playそれぞれからダウンロードできます。"
+              },
+              {
+                q: "希釈計算はどんな農薬に対応していますか？",
+                a: "希釈倍率とタンク容量を入力するだけで、必要な薬量を計算できます。農薬の種類にかかわらずご利用いただけます。"
+              },
+              {
+                q: "AI相談はどんなことを訊けますか？",
+                a: "農薬の選び方、混用の可否、防除のタイミングなど、現場で生じる疑問をいつでも相談できます。専門知識がなくても、自信を持って判断できるようサポートします。"
+              },
+              {
+                q: "操作が難しくないですか？",
+                a: "シンプルな画面構成を心がけています。スマホに慣れていれば、追加設定なしで即日からお使いいただけます。"
+              },
+              {
+                q: "インターネットに繋がっていない場所でも使えますか？",
+                a: "農薬検索・AI相談はオンライン接続が必要ですが、希釈計算・在庫管理はオフラインでもご利用いただけます。"
+              }
+            ].map((item, index) => (
+              <div key={index} className="border border-stone-200 rounded-2xl overflow-hidden">
+                <div className="p-6">
+                  <p className="font-bold text-stone-900 mb-3 flex items-start gap-3">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 text-sm font-bold flex items-center justify-center mt-0.5">Q</span>
+                    {item.q}
+                  </p>
+                  <p className="text-stone-700 leading-relaxed font-medium pl-9">
+                    {item.a}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ⑥ CTA */}
       <section id="download" className="py-32 px-6 bg-white text-center">
         <div className="container mx-auto max-w-3xl">
-          <h3 className="text-3xl md:text-4xl font-bold mb-8 text-stone-900">まずは、次の防除で<br />試してみてください。</h3>
+          <h3 className="text-3xl md:text-4xl font-bold mb-8 text-stone-900">まずは、次の防除で<br />使ってみてください。</h3>
           <p className="text-lg text-stone-700 mb-12 leading-relaxed font-medium">
-            新しい道具を導入するのは、勇気がいることです。<br />
-            だからこそ、まずは一度、ダウンロードして触ってみてください。<br />
-            きっと一度使えば、手放せない道具になるはずです。
+            農家として断言できます。<br />
+            一度使えば、計算機もメモ帳も要りません。<br />
+            畑に向かう前にスマホを一度タップするだけ──<br />
+            それだけで、朝の段取りが変わります。
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="https://apple.co/4umAwPF" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80 transform hover:-translate-y-1">
