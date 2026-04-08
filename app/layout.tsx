@@ -9,20 +9,20 @@ import "./globals.css";
 const notoSansJP = Noto_Sans_JP({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "TAGAYASU — 農家が作った農薬管理アプリ",
-  description: "農家が作った、農家のための農薬管理アプリ「TAGAYASU」。農薬検索・希釈計算・在庫管理・AI相談をスマホ一つで。トライアルプランは登録不要・無料。",
-  keywords: ["TAGAYASU", "たがやす", "農薬アプリ", "希釈計算", "農薬検索", "在庫管理", "農業アプリ", "農家アプリ"],
+  title: "TAGAYASU — 農家が作った農業管理アプリ",
+  description: "農家が作った、農家のための農業管理アプリ「TAGAYASU」。農薬検索・希釈計算・在庫管理・作業記録・AI相談をスマホ一つで。トライアルプランは登録不要・無料。",
+  keywords: ["TAGAYASU", "たがやす", "農薬アプリ", "希釈計算", "農薬検索", "在庫管理", "作業記録", "農業日誌", "農業アプリ", "農家アプリ", "栽培記録"],
   openGraph: {
-    title: "TAGAYASU — 農家が作った農薬管理アプリ",
-    description: "農家が作った、農家のための農薬管理アプリ「TAGAYASU」。農薬検索・希釈計算・在庫管理・AI相談をスマホ一つで。トライアルプランは登録不要・無料。",
+    title: "TAGAYASU — 農家が作った農業管理アプリ",
+    description: "農家が作った、農家のための農業管理アプリ「TAGAYASU」。農薬検索・希釈計算・在庫管理・作業記録・AI相談をスマホ一つで。トライアルプランは登録不要・無料。",
     siteName: "TAGAYASU",
     locale: "ja_JP",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TAGAYASU — 農家が作った農薬管理アプリ",
-    description: "農家が作った、農家のための農薬管理アプリ「TAGAYASU」。農薬検索・希釈計算・在庫管理・AI相談をスマホ一つで。トライアルプランは登録不要・無料。",
+    title: "TAGAYASU — 農家が作った農業管理アプリ",
+    description: "農家が作った、農家のための農業管理アプリ「TAGAYASU」。農薬検索・希釈計算・在庫管理・作業記録・AI相談をスマホ一つで。トライアルプランは登録不要・無料。",
   },
   verification: {
     google: "eqsukJrs9TLkjw6ljLjYX21vEPBdDSOh_HvdkI8wdE8",
