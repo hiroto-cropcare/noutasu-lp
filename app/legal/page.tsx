@@ -21,7 +21,7 @@ export default function LegalPage() {
           <div className="space-y-6 text-stone-600 leading-relaxed text-sm md:text-base">
             <p>
               本利用規約（以下「本規約」といいます）は、寺田裕人（以下「事業者」といいます）が提供する
-              農業支援アプリケーション「TAGAYASU（noutasu）」
+              農業支援アプリケーション「TAGAYASU」
               およびこれに関連するサービス（以下総称して「本サービス」といいます）の利用条件を定めるものです。
               利用者は、本規約に同意のうえ、本サービスを利用するものとします。
             </p>
@@ -120,7 +120,7 @@ export default function LegalPage() {
           <div className="space-y-6 text-stone-600 leading-relaxed text-sm md:text-base">
             <p>
               寺田裕人（以下「事業者」といいます）は、
-              事業者が提供する農業支援アプリケーション「TAGAYASU（noutasu）」および関連サービス（以下「本サービス」といいます）において取得する
+              事業者が提供する農業支援アプリケーション「TAGAYASU」および関連サービス（以下「本サービス」といいます）において取得する
               利用者の個人情報を、以下の方針に基づき適切に取り扱います。
             </p>
 
@@ -199,7 +199,7 @@ export default function LegalPage() {
             </p>
             <div className="ml-4 mt-2">
               <p>事業者名：寺田裕人</p>
-              <p>メールアドレス：info@noutasu.app</p>
+              <p>メールアドレス：info@tagayasu.app</p>
             </div>
 
             <div className="mt-8 pt-6 border-t border-stone-200 text-stone-500">
