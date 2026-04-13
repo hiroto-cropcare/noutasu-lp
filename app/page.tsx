@@ -391,8 +391,11 @@ export default function LandingPage() {
                   </th>
                   {/* チーム */}
                   <th className="p-5 text-center bg-stone-50 border-b border-stone-200">
+                    <div className="flex justify-center mb-2">
+                      <span className="bg-stone-400 text-white text-[11px] font-bold px-3 py-0.5 rounded-full">Coming Soon</span>
+                    </div>
                     <p className="text-xs font-bold text-stone-400 mb-1">チーム（法人）</p>
-                    <p className="text-base font-extrabold text-stone-400 mt-1">Coming Soon</p>
+                    <p className="text-2xl font-extrabold text-stone-400">¥3,980<span className="text-sm font-bold text-stone-400">/月</span></p>
                     <p className="text-[11px] text-stone-400 mt-1">チーム・法人向け</p>
                   </th>
                 </tr>
